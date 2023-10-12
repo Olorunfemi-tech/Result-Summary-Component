@@ -1,0 +1,163 @@
+body{
+    background-color: hsl(221, 100%, 96%);
+}
+
+div.container{
+    position: relative;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+div.main-container{
+    margin: auto;
+    position: relative;
+    top: 90px;
+    left: 330px;
+}
+
+div.float-child{
+    float: left;
+}
+
+span, p{
+    display: block;
+    text-align: center;
+}
+
+span.result{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+span.actual-score{
+    padding-top: 30px;
+    font-weight: 800;
+    font-size: 65px;
+    color: hsl(0, 0%, 100%);
+
+ }
+
+span.overall_score{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+div.scores{
+    height: 30vh;
+    width: 30vh;
+    background:linear-gradient( to bottom,
+    hsl(246,78%,55%),
+    hsl(250,98%,62%));
+    clip-path: circle(50%);
+    margin: 30px 0 20px 80px;
+}
+
+span.result-comment{
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+}
+
+p{
+    margin: 10PX 30px 0;
+}
+
+div.result-container{
+    height: 70vh;
+    width: 55vh;
+    background-color: hsl(246,88%,58%);
+    border-radius: 20px;
+    color: hsl(241, 100%, 89%);
+}
+
+div.summary-main-container{
+    height: 70vh;
+    width: 55vh;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+div.summary-details-container{
+   margin: auto;
+   position: absolute;
+   top: 8px;
+   left: 18px;
+   bottom: 0;
+   right: 0px;
+}
+
+div.Summary-sub-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    width: 40vh;
+    padding: 10px;
+    border-radius: 10px; 
+    margin: 15px;
+    position: relative;
+}
+
+h3{
+    margin-left: 15.5px;
+}
+
+span.exact-score{
+    display: inline;
+    font-weight: 700;
+
+}
+
+span.summary-result{
+    color: hsl(224, 30%, 27%);
+}
+
+div.reaction-summary-container{
+    background-color: hsl(12, 100%, 98%);
+    color: hsl(0, 100%, 67%);
+}
+
+div.memory-summary-container{
+    background-color: hsl(51, 87%, 97%);
+    color: hsl(39, 100%, 56%);
+}
+
+div.verbal-summary-container{
+    background-color: hsl(173, 53%, 96%);
+    color: hsl(166, 100%, 37%);
+}
+
+div.visual-summary-container{
+    background-color: hsl(240, 100%, 98%);
+    color: hsl(234, 85%, 45%);
+}
+
+a.btn-continue:link,
+:visited{
+    display: inline-block;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    padding: 15px 100px;
+    border-radius: 100px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 15px 0;
+}
+
+
+
+div.attribution{
+    text-align: center;
+    color: hsl(228, 45%, 44%); 
+    font-size: 11px; 
+    position: absolute;
+    left: 550px;
+    bottom: 10px;
+}
+
+.btn-attribution{
+   color: hsl(228, 45%, 44%); 
+}
+
